@@ -1,24 +1,27 @@
-## Toaster Library
+# Toaster Library
 
-A simple android library to show toast messages.
+A simple kotlin android library to show toast messages.
 
-How to install?
+## How to install?
 
-Gradle:
+Toaster Library is available on Jitpack.
+For Gradle users, here are the steps: , replacing `x.x.x` with the latest version:
 
-1. Add Jitpack to your project in the build.gradle file (Application level)
+1. Add Jitpack to your `build.gradle` (Application level)
 
+```groovy
 allprojects {
     repositories {
         ...
         maven { url 'https://jitpack.io' }
     }
 }
+```
 
 2. Add the dependency
 
-dependencies {
-    implementation 'com.github.Ahnset:Toaster-Library:0.10'
-}
+```groovy
+implementation 'com.github.Ahnset:Toaster-Library:0.10'
+```
 
-and that's it!
+...
