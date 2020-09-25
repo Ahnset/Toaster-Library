@@ -26,7 +26,10 @@ implementation 'com.github.Ahnset:Toaster-Library:0.10'
 
 ## How tu use it?
 
-the `s` method from the `ToasterMessage` object is responsible for displaying toast messages, use it as follow:
+the `s` method from the `ToasterMessage` object is responsible for displaying toast messages.
+the `s` method takes in a context and the string message as parameters.
+
+here is an example:
 
 ```kotlin
 ToasterMessage.s(context, "this is a simple message!")
