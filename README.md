@@ -1,4 +1,5 @@
 # Toaster Library
+[![](https://jitpack.io/v/Ahnset/Toaster-Library.svg)](https://jitpack.io/#Ahnset/Toaster-Library)
 
 A simple kotlin android library to show toast messages.
 
